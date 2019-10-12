@@ -1,27 +1,17 @@
-# WebPlus
+# </PLUS> Web領域教學研發推廣
+使用 [Angular CLI](https://github.com/angular/angular-cli) 8.1.2 建立
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
+## 使用之前
+請先跑 `npm install` 安裝所有依賴套件
 
-## Development server
+## 開發用伺服器
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+跑 `ng serve` 來打開開發用伺服器，預設 Port 為 **4200**，輸入URL `http://localhost:4200` 來查看網頁，網頁會依據每次存擋自動重新 Compile。
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+跑 `ng build` 來 Build 整個 Project。Build 出的檔案會存在 `dist/` 資料夾。加上 `--prod` 來進行 Production Build。
 
-## Running unit tests
+## Contributer
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Han Hsuan Lin, NCCU, 2019
