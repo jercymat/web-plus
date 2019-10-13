@@ -1,0 +1,26 @@
+#sidebar {
+  background-color: peachpuff;
+  text-align: center;
+  height: 100%;
+  max-width: 300px;
+}
+.logo-area {
+  padding: 60px 60px 0 60px;
+}
+.menu-area {
+  position: relative;
+  margin-top: 100px;
+}
+.menu-bg {
+  height: 270px;
+  fill: darksalmon;
+}
+.links-area {
+  position: absolute;
+  top: 0;
+  left: 118px;
+
+  a {
+    color: #555555;
+  }
+}
