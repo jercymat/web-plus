@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +11,13 @@ import { VideosComponent } from './body/videos/videos.component';
 import { ResourcesComponent } from './body/resources/resources.component';
 import { LinksComponent } from './body/links/links.component';
 import { CoverComponent } from './body/cover/cover.component';
+import { AboutTechComponent } from './body/about/about-tech/about-tech.component';
+import { AboutTargetComponent } from './body/about/about-target/about-target.component';
+import { AboutMemberComponent } from './body/about/about-member/about-member.component';
+import { ResIntroComponent } from './body/resources/res-intro/res-intro.component';
+import { ResModuleComponent } from './body/resources/res-module/res-module.component';
+import { ResToolComponent } from './body/resources/res-tool/res-tool.component';
+import { ResExampleComponent } from './body/resources/res-example/res-example.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +29,18 @@ import { CoverComponent } from './body/cover/cover.component';
     VideosComponent,
     ResourcesComponent,
     LinksComponent,
-    CoverComponent
+    CoverComponent,
+    AboutTechComponent,
+    AboutTargetComponent,
+    AboutMemberComponent,
+    ResIntroComponent,
+    ResModuleComponent,
+    ResToolComponent,
+    ResExampleComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgbModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
