@@ -9,6 +9,7 @@ app-body {
   margin-left: 300px;
   margin-bottom: 70px;
   padding: 16px;
+  max-width: calc(100% - 300px);
 }
 app-footer {
   position: fixed;
