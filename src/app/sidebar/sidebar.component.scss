@@ -1,5 +1,4 @@
 #sidebar {
-  background-color: peachpuff;
   text-align: center;
   height: 100%;
   max-width: 300px;
@@ -13,7 +12,7 @@
 }
 .menu-bg {
   height: 270px;
-  fill: darksalmon;
+  transition: fill 150ms linear;
 }
 .links-area {
   position: absolute;

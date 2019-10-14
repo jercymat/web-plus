@@ -7,7 +7,7 @@
     <p class="mt-3">Web領域教學研發推廣</p>
   </div>
   <div class="menu-area">
-    <svg class="menu-bg">
+    <svg class="menu-bg" [style.fill]="sidebarBg$ | async">
       <rect rx="27" ry="27" x="87.5" y="0" width="125" height="270"></rect>
     </svg>
     <div class="links-area">
