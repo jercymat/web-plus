@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Breadcrumb } from 'src/app/_shared/models/breadcrumb.model';
 
 @Component({
   selector: 'app-about-member',
@@ -6,8 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-member.component.scss']
 })
 export class AboutMemberComponent implements OnInit {
+  breadcrumbContent: Breadcrumb;
+  themeColor = '#8F437A';
 
-  constructor() { }
+  constructor() {
+    this.breadcrumbContent = {
+      nodes: [
+        '首頁',
+        '關於我們',
+        '團隊成員'
+      ]
+    };
+  }
 
   ngOnInit() {
   }
