@@ -22,4 +22,8 @@
   a {
     color: #555555;
   }
+
+  & > .navbar-nav > .nav-item {
+    margin-top: 1em;
+  }
 }
