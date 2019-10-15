@@ -1,0 +1,6 @@
+<div class="bc" [style.color]="themeColor">
+  <ng-container *ngFor="let node of breadcrumbContent.nodes; let i=index">
+    <span class="mx-5">{{ node }}</span>
+    <i class="fas fa-chevron-right" *ngIf="i < breadcrumbContent.nodes.length - 1"></i>
+  </ng-container>
+</div>

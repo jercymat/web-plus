@@ -18,6 +18,7 @@ import { ResIntroComponent } from './body/resources/res-intro/res-intro.componen
 import { ResModuleComponent } from './body/resources/res-module/res-module.component';
 import { ResToolComponent } from './body/resources/res-tool/res-tool.component';
 import { ResExampleComponent } from './body/resources/res-example/res-example.component';
+import { BreadcrumbComponent } from './_shared/components/breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ResExampleComponent } from './body/resources/res-example/res-example.co
     ResIntroComponent,
     ResModuleComponent,
     ResToolComponent,
-    ResExampleComponent
+    ResExampleComponent,
+    BreadcrumbComponent
   ],
   imports: [
     BrowserModule,
