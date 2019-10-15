@@ -1,0 +1,25 @@
+.timeline-area {
+  
+  width: 100%;
+  height: 100%;
+}
+.vert-line {
+  stroke: #8F437A;
+  stroke-width: 6px;
+}
+.dot {
+  fill: #8F437A;
+}
+.nopadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.about-area {
+  h5 {
+    // font-weight: normal;
+    color: #575656;
+  }
+  div {
+    color: #868686;
+  }
+}
