@@ -1,0 +1,20 @@
+.img-area {
+  min-height: 100vh;
+  padding-top: 60px;
+}
+.btn.btn-more {
+  border-radius: 15px;
+  height: 30px;
+  line-height: 0;
+  background-color: #8F437A;
+  border-color: #8F437A;;
+
+  &:active {
+    background-color: #763764 !important;
+    border-color: #763764 !important;
+  }
+  &:hover {
+    border-color: #823D6F;
+    background-color: #823D6F;
+  }
+}
