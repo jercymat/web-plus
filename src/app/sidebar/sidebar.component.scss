@@ -16,7 +16,7 @@
 }
 .links-area {
   position: absolute;
-  top: 0;
+  top: -8px;
   left: 118px;
 
   a {
@@ -24,6 +24,12 @@
   }
 
   & > .navbar-nav > .nav-item {
-    margin-top: 1em;
+    margin-top: 1.2em;
+    font-weight: 600;
+
+    & > .navbar-nav > .nav-item {
+      font-size: 14px;
+      font-weight: normal;
+    }
   }
 }
