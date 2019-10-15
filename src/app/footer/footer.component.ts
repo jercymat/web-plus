@@ -26,16 +26,21 @@ export class FooterComponent implements OnInit {
   }
 
   footerBg() {
-    const colors = {
-      '/': '#8F437A',
-      '/about': '#8F437A',
-      '/videos': '#758AB2',
-      '/resources': '#87B3BF',
-      '/links': '#D9BA74'
-    }
     this.footerBg$ = this.router.events.pipe(
       filter(val => val instanceof NavigationEnd),
-      map((val: NavigationEnd) => colors[val.url])
+      map((val: NavigationEnd) => {
+        console.log(val.url);
+        if (val.url.indexOf('/videos') >= 0) {
+          return '#758AB2';
+        } else if (val.url.indexOf('/resources') >= 0) {
+          console.log('resources!!!!!!');
+          return '#87B3BF';
+        } else if (val.url.indexOf('/links') >= 0) {
+          return '#D9BA74';
+        } else {
+          return '#8F437A';
+        }
+      })
     );
   }
 

@@ -19,16 +19,21 @@ export class SidebarComponent implements OnInit {
   }
 
   sidebarBg() {
-    const colors = {
-      '/': '#F6F0F3',
-      '/about': '#F6F0F3',
-      '/videos': '#F4F6F9',
-      '/resources': '#F4F8F9',
-      '/links': '#FCF9F4'
-    }
     this.sidebarBg$ = this.router.events.pipe(
       filter(val => val instanceof NavigationEnd),
-      map((val: NavigationEnd) => colors[val.url])
+      map((val: NavigationEnd) => {
+        console.log(val.url);
+        if (val.url.indexOf('/videos') >= 0) {
+          return '#F4F6F9';
+        } else if (val.url.indexOf('/resources') >= 0) {
+          console.log('resources!!!!!!');
+          return '#F4F8F9';
+        } else if (val.url.indexOf('/links') >= 0) {
+          return '#FCF9F4';
+        } else {
+          return '#F6F0F3';
+        }
+      })
     );
   }
 
