@@ -1,0 +1,21 @@
+.wp_res-tool {
+  margin-top: 3.5rem;
+
+  & > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.wp_res-tool-header {
+  font-size: 18px;
+  font-weight: 600;
+  height: 60px;
+  width: 100%;
+  background-color: #ABD1DB;
+  color: white;
+  border-radius: 30px;
+
+  p {
+    padding-top: 15px;
+  }
+}
