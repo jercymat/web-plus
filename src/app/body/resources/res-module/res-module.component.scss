@@ -1,0 +1,42 @@
+.wp_res-module {
+  margin-top: 3.5rem;
+
+  & > div {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+.wp_res-module-header {
+  font-size: 18px;
+  font-weight: 600;
+  height: 60px;
+  width: 100%;
+  background-color: #ABD1DB;
+  color: white;
+  border-radius: 30px;
+  position: relative;
+  z-index: 2;
+
+  p {
+    padding-top: 15px;
+  }
+  p.wp_res-module-dl {
+    font-family: 'Abel';
+    font-weight: bold;
+  }
+  a {
+    color: white;
+
+    &:hover {
+      color: #EEEEEE;
+    }
+  }
+}
+.wp_res-module-context {
+  height: 220px;
+  width: 100%;
+  background-color: #FBFBFB;
+  border-radius: 30px;
+  margin-top: -60px;
+  padding-top: calc(60px + 1rem);
+}
