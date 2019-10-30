@@ -1,0 +1,19 @@
+.wp_mainscreen {
+  h1.wp_mainscreen-title {
+    font-size: 60px;
+    color: #E6BDB9;
+    font-family: 'Abel';
+    font-weight: 300;
+  }
+  hr {
+    width: 150px;
+    border: 1px solid #F3DEDC;
+  }
+  .wp_mainscreen-context {
+    padding: 3rem 5rem 3rem 5rem;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.8;
+    color: white;
+  }
+}
