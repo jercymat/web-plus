@@ -1,0 +1,102 @@
+h1.wp_mainscreen-title {
+  font-size: 60px;
+  color: #87B3BF;
+  font-family: 'Abel';
+  font-weight: 300;
+  line-height: 1.2;
+}
+.wp_mainscreen-subtitle {
+  color: #87B3BF;
+  font-weight: 400;
+}
+.wp_themed-h3 {
+  font-size: 28px;
+  color: #87B3BF;
+  margin-bottom: 1rem;
+}
+.wp_themed-h4 {
+  font-size: 22px;
+  color: #868686;
+  margin-bottom: 2rem;
+}
+.wp_themed-h5 {
+  font-size: 16px;
+  color: #87B3BF;
+  margin-bottom: 0.8rem;
+
+  &::before {
+    content: '- ';
+  }
+}
+#mainscreen-icon {
+  position: absolute;
+  max-height: 142px;
+  right: 100px;
+  margin-top: -20px;
+}
+#res-dev-icon {
+  position: absolute;
+  right: 10px;
+  max-height: 97px;
+  margin-top: -60px;
+}
+#res-dev-area {
+  margin-top: 3rem;
+  margin-bottom: 200px;
+
+  div {
+    font-size: 16px;
+    color: #868686;
+    margin-bottom: 1.5rem;
+
+    & > p {
+      &::before {
+        content: '• ';
+      }
+    }
+  }
+}
+.card-deck {
+  & > .wp_rounded-card {
+    border-radius: 32px;
+    background-color: #ABD1DB;
+    border: none;
+    min-height: 480px;
+
+    & .wp_card-title {
+      color: white;
+      margin-top: 1.6rem;
+      margin-bottom: 2.2rem;
+    }
+    & .wp_card-context {
+      color: #87B3BF;
+      height: 330px;
+      border-radius: 12px;
+      background-color: white;
+
+      & > p {
+        margin-bottom: 0.3rem;
+        margin-left: -7px;
+
+        &::before {
+          content: '• ';
+          font-size: 32px;
+          line-height: 1.2;
+          color: #F1DE85;
+        }
+      }
+    }
+  }
+}
+.wp_res-table {
+  color: #868686;
+
+  thead, .tfooter {
+    background-color: #87B3BF;
+    color: white;
+    border: none;
+  }
+  td, th {
+    border: none;
+  }
+}
