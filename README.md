@@ -1,16 +1,44 @@
-# </PLUS> Web領域教學研發推廣
-使用 [Angular CLI](https://github.com/angular/angular-cli) 8.1.2 建立
+# \</PLUS> Web領域教學研發推廣網頁
+<div style="text-align:center"><img src="https://i.imgur.com/1m8yA0o.png"/></div>
 
-## 使用之前
-請先跑 `npm install` 安裝所有依賴套件
+**Deployed Site:**
+[http://slash-plus-demo.herokuapp.com/](http://slash-plus-demo.herokuapp.com/)
+## Dependencies
+* [Angular CLI](https://github.com/angular/angular-cli) 8.1.2
+* [Babel](https://babeljs.io) 7.8.7
 
-## 開發用伺服器
-
-跑 `ng serve` 來打開開發用伺服器，預設 Port 為 **4200**，輸入URL `http://localhost:4200` 來查看網頁，網頁會依據每次存擋自動重新 Compile。
+## Usage
+Install all dependencies:
+```
+npm install
+```
+Run debugging server:
+```
+ng serve
+```
+Browse the webpage on `http://localhost:4200/`
 
 ## Build
 
-跑 `ng build` 來 Build 整個 Project。Build 出的檔案會存在 `dist/` 資料夾。加上 `--prod` 來進行 Production Build。
+Run building command:
+```
+ng build // normal build
+ng build --prod // production build
+```
+
+## Deploy on Heroku
+Login your [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli):
+```
+heroku login
+```
+Add heroku app remote git path to your local repo:
+```
+heroku git:remote -a <your-app-name>
+```
+Push to heroku and deploy:
+```
+git push heroku master
+```
 
 ## Contributer
 
