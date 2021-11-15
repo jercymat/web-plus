@@ -1,13 +1,23 @@
-# \</PLUS> Web領域教學研發推廣網頁
-<div style="text-align:center"><img src="https://i.imgur.com/1m8yA0o.png"/></div>
+# \</PLUS> - Programming Learning for University Students
+![PLUS home icon](https://i.imgur.com/1m8yA0o.png)
+
+Mid-Fi prototype website of **\</PLUS> Programming Learning for University Students** project, presented by **National Chengchi University, Taiwan**. Developed as a single page application (SPA) using Angular Framework.
 
 **Deployed Site:**
 [http://slash-plus-demo.herokuapp.com/](http://slash-plus-demo.herokuapp.com/)
-## Dependencies
-* [Angular CLI](https://github.com/angular/angular-cli) 8.1.2
-* [Babel](https://babeljs.io) 7.8.7
 
-## Usage
+## Features
+* Single Page Applicaiton using Angular
+
+## Dependencies
+* [Angular CLI](https://github.com/angular/angular-cli) 8.1.2 -> Frontend Framework
+* [Babel](https://babeljs.io) 7.8.7 -> Convert Javascript ES6 Script to ES5
+* [Express](https://expressjs.com) 4.17.1 -> Backend Framework
+* [Bootstrap](https://getbootstrap.com) 4.3.1 -> Frontend CSS Library
+* [RxJS](https://rxjs.dev) 6.4.0 -> Redux Library for Javascript
+
+## Getting Started
+### Usage
 Install all dependencies:
 ```
 npm install
@@ -18,7 +28,7 @@ ng serve
 ```
 Browse the webpage on `http://localhost:4200/`
 
-## Build
+### Build
 
 Run building command:
 ```
@@ -26,8 +36,8 @@ ng build // normal build
 ng build --prod // production build
 ```
 
-## Deploy on Heroku
-Login your [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli):
+## Deployment
+Log into your [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli):
 ```
 heroku login
 ```
@@ -40,6 +50,9 @@ Push to heroku and deploy:
 git push heroku master
 ```
 
-## Contributer
+## Author
+* **Han-Hsuan Lin**, *Dept. of Computer Science, National Chengchi University* - [105703004@nccu.edu.tw](mailto:105703004@nccu.edu.tw)
 
-* Han Hsuan Lin, NCCU, 2019
+## Declaration
+This prototype is built for research and further development only.
+Han-Hsuan Lin, 2019, Natioanal Chengchi University
